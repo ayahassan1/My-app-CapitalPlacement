@@ -1,5 +1,6 @@
 public class ApplicationForm
 {
+    public string Id { get; set; }
     public byte[]? Cover_image { get; set; }
     public PersonalInfo? Summary { get; set; }
     public Profile? Description { get; set; }
